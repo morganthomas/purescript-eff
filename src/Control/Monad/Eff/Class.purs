@@ -1,4 +1,4 @@
-module Control.Monad.Eff.Class where
+module Control.Monad.Eff.Class (class MonadEff, liftEff) where
 
 import Control.Category (id)
 import Control.Monad (class Monad)

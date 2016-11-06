@@ -1,4 +1,4 @@
-module Control.Monad.Eff.Unsafe where
+module Control.Monad.Eff.Unsafe (unsafeCoerceEff, unsafePerformEff) where
 
 import Control.Monad.Eff (Eff, runPure)
 import Control.Semigroupoid ((<<<))
